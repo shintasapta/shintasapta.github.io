@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Testing"
+date:   2017-02-27 22:12:33 +0700
+categories: jekyll update
+---
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}

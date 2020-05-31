@@ -157,8 +157,8 @@
   * Site header
   */
  .site-header {
-   border-top: 5px solid #424242;
-   border-bottom: 1px solid #e8e8e8;
+   border-top: 5px solid #5F4B32;
+   border-bottom: 1px solid #5F4B32;
    min-height: 55.95px;
    position: relative; }
  
@@ -227,8 +227,8 @@
   * Site footer
   */
  .site-footer {
-   border-top: 1px solid #e8e8e8;
-   padding: 30px 0; }
+   padding: 30px 0; 
+  }
  
  .footer-heading {
    font-size: 18px;
@@ -296,7 +296,15 @@
  
  .post-link {
    display: block;
-   font-size: 24px; }
+   font-size: 24px;
+   color: #5F4B32;
+   text-decoration: underline; 
+  }
+  .post-row {
+    background-color: #f4dfba;
+    padding: 16px;
+    border-radius: 5px;
+  }
  
  /**
   * Posts
